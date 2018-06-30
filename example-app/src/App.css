@@ -1,28 +1,36 @@
-.App {
-  text-align: center;
+ul.header {
+  background-color: #111;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
 }
-  
-.App-header {
-  background-color: #222;
-  height: 150px;
+
+ul.header li a{
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;/* 去掉下划线 */
   padding: 20px;
-  color: white;
+  display: inline-block;/*块显示*/
 }
 
-.App-title {
-  font-size: 1.5em;
+.active {
+  background-color: #0099FF;
 }
 
-.App-intro {
-  font-size: large;
+.content {
+  background-color: #FFF;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
 }
