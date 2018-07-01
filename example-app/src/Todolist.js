@@ -22,6 +22,9 @@ class  Todolist extends React.Component {
         this.setState({
             items: itemArray
         });
+        //清空输入框,并获得焦点
+        this.target.value = "";
+        this.target.focus();
         // console.error(this.state.items);
         e.preventDefault();
     }
