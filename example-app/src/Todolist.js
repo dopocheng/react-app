@@ -56,8 +56,7 @@ class TodoItems extends React.Component {
 
     render(){
         var todoEntries=this.props.entries;
-        // var todoEntries=this.state.items;
-        console.error("1111"+this.props);
+        // console.error("1111"+this.props);
         var listItems = todoEntries.map(this.createTasks);
         return(
             <ul>{listItems}</ul>
