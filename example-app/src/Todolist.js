@@ -62,7 +62,7 @@ class TodoItems extends React.Component {
         // console.error("1111"+this.props);
         var listItems = todoEntries.map(this.createTasks);
         return(
-            <ul>{listItems}</ul>
+            <ul className="theList">{listItems}</ul>
         );
     }
 }
