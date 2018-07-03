@@ -5,9 +5,9 @@ import './App.css'
 
 // var herf = '../public/todolist.html';
 
-// function gotodoList(route){
-//   window.location.hash =route;
-// }
+function gotodoList(route){
+  window.location.hash =route;
+}
 
 class lb extends Component {
   render() {
@@ -62,7 +62,7 @@ class App extends Component {
           <li><NavLink to="/" exact activeClassName="active">李白</NavLink></li>
           <li><NavLink to="/df" activeClassName="active">杜甫</NavLink></li>
           <li><NavLink to="/lsy" activeClassName="active">李商隐</NavLink></li>
-          {/* <li  onClick={() => gotodoList('../public/todolist.html')}><NavLink to="/todolist" activeClassName="active">To Do List</NavLink></li> */}
+          <li  onClick={() => gotodoList('../public/todolist.html')}><NavLink to="/todolist" activeClassName="active">To Do List</NavLink></li>
           </nav>
         </ul>
 
